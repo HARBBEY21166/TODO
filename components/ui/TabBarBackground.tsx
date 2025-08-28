@@ -1,5 +1,16 @@
-// This is a shim for web and Android where the tab bar is generally opaque.
-export default undefined;
+
+import { ThemedView } from '@/components/Themed';
+import { Colors } from '@/constants/Colors';
+
+export default function TabBarBackground() {
+  return (
+    <ThemedView
+      lightColor={Colors.light.lightGray}
+      darkColor={Colors.dark.lightGray}
+      style={{ flex: 1 }}
+    />
+  );
+}
 
 export function useBottomTabOverflow() {
   return 0;
