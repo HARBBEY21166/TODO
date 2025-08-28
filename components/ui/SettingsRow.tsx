@@ -1,5 +1,5 @@
 
-import { ThemedText, ThemedView } from '@/components/Themed';
+import { ThemedText, ThemedView } from '@/components/ui/Themed';
 import { StyleSheet } from 'react-native';
 
 interface SettingsRowProps {

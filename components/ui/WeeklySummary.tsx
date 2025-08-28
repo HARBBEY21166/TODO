@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { StyleSheet } from 'react-native';
-import { ThemedView, ThemedText } from '@/components/Themed';
+import { ThemedView, ThemedText } from '@/components/ui/Themed';
 import { Colors } from '@/constants/Colors';
 
 interface ToDo {

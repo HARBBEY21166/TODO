@@ -1,7 +1,7 @@
 
 import Layout from '@/components/ui/Layout';
-import { ThemedView } from '@/components/Themed';
-import SettingsRow from '@/components/SettingsRow';
+import { ThemedView, ThemedText } from '@/components/ui/Themed';
+import SettingsRow from '@/components/ui/SettingsRow';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { StyleSheet, Switch } from 'react-native';
 

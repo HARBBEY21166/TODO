@@ -1,5 +1,5 @@
 
-import { ThemedText, ThemedView } from '@/components/Themed';
+import { ThemedText, ThemedView } from '@/components/ui/Themed';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { Platform, StyleSheet } from 'react-native';

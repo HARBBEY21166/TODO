@@ -1,6 +1,6 @@
 
 import { useBottomTabBarHeight } from '@react-navigation/bottom-tabs';
-import { ThemedView } from '@/components/Themed';
+import { ThemedView } from '@/components/ui/Themed';
 import { Colors } from '@/constants/Colors';
 
 export default function TabBarBackground() {

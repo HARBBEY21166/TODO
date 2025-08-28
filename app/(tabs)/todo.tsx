@@ -1,15 +1,15 @@
 
 import Layout from '@/components/ui/Layout';
-import { ThemedText, ThemedView } from '@/components/Themed';
+import { ThemedText, ThemedView } from '@/components/ui/Themed';
 import { Colors } from '@/constants/Colors';
 import { useState, useCallback, useEffect, useMemo } from 'react';
 import { View, Text, TextInput, Button, FlatList, StyleSheet, Keyboard, Platform, TouchableOpacity } from 'react-native';
-import FocusTimer from '../../components/FocusTimer';
-import MoodSelector from '../../components/MoodSelector';
-import WeeklySummary from '../../components/WeeklySummary';
+import FocusTimer from '@/components/ui/FocusTimer';
+import MoodSelector from '@/components/ui/MoodSelector';
+import WeeklySummary from '@/components/ui/WeeklySummary';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import EditToDoModal from '../../components/EditToDoModal';
-import PrioritySelector from '../../components/PrioritySelector';
+import EditToDoModal from '@/components/ui/EditToDoModal';
+import PrioritySelector from '@/components/ui/PrioritySelector';
 import DateTimePicker from '@react-native-community/datetimepicker';
 import * as Notifications from 'expo-notifications';
 import { Ionicons } from '@expo/vector-icons';

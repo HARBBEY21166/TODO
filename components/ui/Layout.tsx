@@ -1,6 +1,6 @@
 
-import { ThemedView } from '@/components/Themed';
-import Header from './Header';
+import { ThemedView } from '@/components/ui/Themed';
+import Header from '@/components/ui/Header';
 
 interface LayoutProps {
   title: string;

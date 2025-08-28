@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, TouchableOpacity } from 'react-native';
-import { ThemedView, ThemedText } from '@/components/Themed';
+import { ThemedView, ThemedText } from '@/components/ui/Themed';
 import { Colors } from '@/constants/Colors';
 import { Ionicons } from '@expo/vector-icons';
 
